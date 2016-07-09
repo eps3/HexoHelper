@@ -8,24 +8,24 @@ Hexo Auto Update Script
 Edit run.py
 
 ```python
-#??ftp???
+#ftp user
 name = 'ftproot'
-#??ftp??
+#ftp password
 pwd = 'ftppass'
 
-#???????
+#server ip
 server = '192.168.0.1'
-#??root??
+#server root user password
 sshpwd = 'sshrootpass'
 
 
-#ftp??
+#ftp blog path
 ftppath = ' /home/ftp/blog '
-#??????
+#nginx blog path
 blogpath=' /usr/local/nginx/html/blog '
-#nginx???
+#nginx path
 nginxpath=' /usr/local/nginx/html/ '
-#??hexo????public?????
+#loacl hexo public path
 srcDir = r"D:\CodePlace\sheep3\sheep3\public"
 ```
 
@@ -41,5 +41,5 @@ python run.py
 
 ### 3. TODO
 
-- ????
+- 中文支持
 
